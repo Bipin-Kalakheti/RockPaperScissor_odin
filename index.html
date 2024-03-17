@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissor</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
     <div class="main-container">
-        <div class="header">
-            <h2>Rock Paper Scissor</h2>
-            <div class="head_img">
-                <img src="" alt="head image">
-            </div>
+      <div class="header">
+        <h2>Rock Paper Scissor</h2>
+        <!-- <div class="head_img">
+          <img src="" alt="head image" />
+        </div> -->
+      </div>
+      <div class="main-content">
+        <div class="results">
+          <p>Choose One of the options below to Start</p>
         </div>
-        <div class="main-content">
-            <div class="results">
-                <div class="computer-choice">
-
-                </div>
-                <div class="points">
-
-                </div>
-                <div class="user-choice">]
-
-                </div>
-            </div>
-            <div class="user-options">
-                <button>Rock</button>
-                <button>Paper</button>
-                <button>Scissor</button>
-            </div>
-
+        <div class="points">
+          <div class="computer-point">
+            <img src="" alt="" class="computer-sign" />
+            <p class="Computer-point-text"></p>
+          </div>
+          <div class="user-point">
+            <img src="" alt="" class="player-sign" />
+            <p class="Player-point-text"></p>
+          </div>
         </div>
+
+        <div class="user-choice">
+          <button class="inputs" value="rock">
+            <img src="images/player_rock.png" alt="" class="rock" />
+          </button>
+
+          <button class="inputs" value="paper">
+            <img src="images/player_paper.png" alt="" class="paper" />
+          </button>
+          <button class="inputs" value="scissor">
+            <img src="images/player_scissor.png" alt="" class="scissor" />
+          </button>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
